@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: AHpx's Blog
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
+author: AHpx
 language: en
 timezone: ''
 
@@ -40,20 +40,20 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
-  enable: true
-  line_number: true
+  enable: false #set it to false
+  line_number: false
   auto_detect: false
   tab_replace: ''
-  wrap: true
+  wrap: false #false
   hljs: false
 prismjs:
-  enable: false
+  enable: true #set it to true
   preprocess: true
-  line_number: true
+  line_number: true #optional
   tab_replace: ''
 
 # Home page setting
@@ -97,7 +97,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: minima
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
